@@ -1,7 +1,7 @@
 # NodateDebug
 Building an STM32CubeIDE debug environment for a NoDate project
 
-I've been fascinated by small, low-overhead libraries for developing software on STM32 platforms.  Lately I've been working with Maya Posch's NoDate library.  Unfortunately, I'm not very good at using gdb and really like graphical IDEs for debugging.  So these are my ideas for integrating a NoDate makefile project into a STM32Cube IDE debug environment.  Props to https://github.com/ethanhuanginst/STM32CubeIDE-Workshop-2019 for the crucial basic steps.  Note that the instructions that follow were developed for use on Linux.  Some modification may be required for use with Windows or MacOS.
+I've been fascinated by small, low-overhead libraries for developing software on STM32 platforms.  Lately I've been working with Maya Posch's NoDate library.  Unfortunately, I'm not very good at using gdb and really like graphical IDEs for debugging.  So these are my ideas for integrating a NoDate makefile project into a STM32Cube IDE debug environment.  Props to https://github.com/ethanhuanginst/STM32CubeIDE-Workshop-2019 for the crucial basic steps that I built upon.  Note that the instructions that follow were developed for use on Linux.  Some modification may be required for use with Windows or MacOS.
 
 ## Steps
 
