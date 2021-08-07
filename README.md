@@ -26,7 +26,7 @@ I've been fascinated by small, low-overhead libraries for developing software on
 5. Prepare for compiling   
    * Delete all folders and files:  
 ![](images/stm32_hp141_lcd-start-new-project-5.png)
-   * Drag all the contents of your NoDate project into "stm32_hp141_lcd" in Project Exploere of STM32CubeIDE:  
+   * Drag all the contents of your NoDate project into the project folder in Project Exploere of STM32CubeIDE:  
      ![](images/stm32_hp141_lcd-start-new-project-6.png)
    * Select "Copy files and folders" and then press "OK":
 ![](images/stm32_hp141_lcd-start-new-project-7.png)
