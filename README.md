@@ -63,11 +63,11 @@ Be warned, however, that this change will result in a larger compiled program.  
 That's all it takes to debug an application that uses the NoDate library!  If, however, you wish to contribute to the development of the NoDate library you may want to have the debugger step through the library code.  That requires a few more configuration steps.
    
 1. Add the NoDate libraries to the Project   
-      * Drag the following folders from the NoDate library into "stm32_hp141_lcd" in Project Exploere of STM32CubeIDE:  
-			* arch/stm32/cpp/boards
-			* arch/stm32/cpp/core
-			* arch/stm32/cpp/libs
-			* arch/stm32/cpp/peripherals
+    * Drag the following folders from the NoDate library into "stm32_hp141_lcd" in Project Exploere of STM32CubeIDE:  
+        * arch/stm32/cpp/boards
+        * arch/stm32/cpp/core
+        * arch/stm32/cpp/libs
+        * arch/stm32/cpp/peripherals
     * Select "Link to files and folders" and then press "OK":
      
 2. (Optional) Add "defines" from the Makefile to the Project
