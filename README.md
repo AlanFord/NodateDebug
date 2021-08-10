@@ -86,6 +86,6 @@ That's all it takes to debug an application that uses the NoDate library!  If, h
         * STM32F0
         * STM32F030R8Tx
         * STM32F030x8
-    * Select "Link to files and folders" and then press "OK":
+
 
 
