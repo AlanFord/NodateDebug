@@ -55,8 +55,8 @@ I've been fascinated by small, low-overhead libraries for developing software on
 
 
 12. (Optional) Adjust the compiler optimization settings
-You may find that, when stepping the debugger through your source code, the debugger begins jumping around in an unnatural manner.  This isn't a show-stopper, but may be a little disconcerting.  The behavior is caused by NoDate's default compiler optimization level.  A more sedate behavior can be induced by adding the following line to the Project makefile:
-	APP_FLAGS = -O0
+You may find that, when stepping the debugger through your source code, the debugger begins jumping around in an unnatural manner.  This isn't a show-stopper, but may be a little disconcerting.  The behavior is caused by NoDate's default compiler optimization level.  A more sedate behavior can be induced by adding the following line to the Project makefile:\
+	APP_FLAGS = -O0\
 Be warned, however, that this change will result in a larger compiled program.  If you have a microcontroller with a small amount of flash storage, changing the optimization settings may result in a compiled program too large for your microcontroller.  If so, remove the APP_FLAGS line from the makefile.
 
    
