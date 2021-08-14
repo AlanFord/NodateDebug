@@ -77,15 +77,11 @@ That's all it takes to debug an application that uses the NoDate library!  If, h
       * Rebuild the project and examine the Console window.  Find a compile command (beginning with "arm-none-eabi-g++") and search for command options that begin with "-D".  Enter these option (without the -D) in the Symbols tab of the Paths and Symbols section of the Project Properties.  For example, a project defined for an STM32F030R8 using I2C and a USART had the following defines:
         * __stm32f0
         * __stm32f030x8
+        * STM32F030x8
         * NODATE_GPIO_ENABLED
         * NODATE_I2C_ENABLED
         * NODATE_TIMER_ENABLED
         * NODATE_USART_ENABLED
-        * NUCLEO_F030R8
-        * STM32
-        * STM32F0
-        * STM32F030R8Tx
-        * STM32F030x8
 
 
 
